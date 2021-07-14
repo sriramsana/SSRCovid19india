@@ -1,0 +1,79 @@
+.states-list {
+  background: #1e1e30;
+  /* Light / blue-gray / 600 */
+  width: 80%;
+  border: 1px solid #475569;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+}
+.list-header {
+  display: flex;
+  color: #fff;
+  list-style-type: none;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.horizantal-line {
+  border: 1px solid #475569;
+}
+.list-items-s {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.states-name {
+  color: #f1f5f9;
+  text-align: left;
+  text-decoration: none;
+  width: 13%;
+}
+.list-items-s:hover {
+  background-color: #2f2f43;
+  border-radius: 15px;
+}
+.confirmed-cases {
+  color: #ff073a;
+  text-decoration: none;
+  text-align: right;
+}
+
+.active-cases {
+  color: #007bff;
+  text-align: right;
+  text-decoration: none;
+}
+
+.recovered-cases {
+  color: #28a745;
+  text-align: right;
+
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  width: 52px;
+  margin-left: 8px;
+}
+.deceased-cases {
+  color: #6c757d;
+  text-align: right;
+}
+.population-count {
+  color: #94a3b8;
+  text-align: right;
+}
+.state-list {
+  min-width: 900px;
+}
+@media screen and(max-width:768px) {
+  .state-list-container {
+    overflow: auto;
+    min-width: 900px;
+  }
+}

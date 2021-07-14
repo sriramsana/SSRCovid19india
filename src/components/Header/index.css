@@ -1,0 +1,90 @@
+.nav_bar {
+  display: flex;
+  /* position: absolute; */
+  width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #1e1e30;
+  justify-content: space-between;
+}
+
+.covid19-heading {
+  padding-left: 50px;
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  text-decoration: none;
+  text-align: center;
+
+  cursor: pointer;
+  /* Light / blue-gray / 50 */
+
+  color: #f8fafc;
+}
+.india {
+  color: #007bff;
+}
+.nav-options {
+  display: flex;
+  list-style-type: none;
+  width: 15%;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+.home-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+}
+.about-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+
+  color: #94a3b8;
+}
+@media (max-width: 768px) {
+  .nav-options {
+    display: none;
+  }
+  .menu-button {
+    align-self: center;
+    width: 52px;
+    margin-right: 30px;
+  }
+  .mobile-nav-options-container {
+    background: #1e1e30;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-nav-options {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  .cross {
+    align-self: center;
+    margin-right: 20px;
+  }
+  .about-link {
+    color: #f8fafc;
+    padding-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+  .mobile-nav-options {
+  }
+}

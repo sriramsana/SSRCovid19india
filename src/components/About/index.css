@@ -1,0 +1,49 @@
+.question {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.answer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #007bff;
+}
+.about-background {
+  height: 100%;
+  background: ;
+  background: #161625;
+  margin-top: 0px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.back {
+  width: 80%;
+}
+.about-heading {
+  color: #fff;
+}
+.last-updated {
+  color: #94a3b8;
+}
+.vaccine-dist {
+  color: #e2e8f0;
+}
